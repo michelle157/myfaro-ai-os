@@ -1,0 +1,22 @@
+# MacOS
+.DS_Store
+
+# Environment files
+.env
+.env.*
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
