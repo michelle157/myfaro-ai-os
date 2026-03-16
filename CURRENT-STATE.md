@@ -1,8 +1,11 @@
+**There is a lot of duplication of info here from CONTEXT.md - potentially conflicting as data is corrected in one or the other**
+
 # Current State of the MyFaro Platform
 
 This document describes the current operational and technical state of the MyFaro platform.
 
 The objective is to provide AI systems and developers with an accurate view of how the platform operates today.
+
 
 ---
 
