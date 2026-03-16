@@ -52,7 +52,7 @@ MongoDB stores structured data such as:
 • financial positions  
 • product references  
 
-## Product Data
+## Product Data - this is also included in the database
 
 MyFaro maintains an internal **funds and product database** containing:
 
@@ -82,7 +82,7 @@ All AI systems interact with the same repository structure.
 
 # Document Storage Architecture
 
-MyFaro separates **structured data storage** from **document storage**.
+MyFaro separates **structured data storage** from **document/file/blob storage**.
 
 ## Structured Data
 
@@ -99,7 +99,8 @@ Examples include:
 
 ## Document Storage
 
-Documents are stored in **Microsoft SharePoint** environments.
+The meta-data for docucuments, as well as the security model are embedded in the myFaro application and database.
+The files/blobs and basic metadata are stored in **Microsoft SharePoint** environments.
 
 Two main SharePoint environments exist.
 
@@ -175,9 +176,11 @@ Provides:
 • fund information  
 • financial product data  
 
+This data is complementented with some basic scraping of third-party sites.
+
 ## Company Data
 
-Creditsafe API
+Creditsafe API & CompanyWeb API
 
 Provides:
 
@@ -197,7 +200,7 @@ Examples:
 • MyMinFin  
 • MyCareer  
 
-These integrations currently use **HTML ingestion modules** built internally.
+These integrations currently use **HTML/PDF ingestion modules** built internally.
 
 ---
 
@@ -207,7 +210,7 @@ Not all financial data can be retrieved directly through APIs.
 
 To address this, MyFaro includes an **internal data aggregation mechanism**.
 
-Financial advisors can upload portfolio data using **CSV files**.
+Financial advisors can upload portfolio data using **CSV/XML/PDF files**.
 
 These files are processed through a validation pipeline that:
 
