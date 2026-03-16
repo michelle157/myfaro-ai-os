@@ -56,6 +56,8 @@ However, HubSpot is not considered the default CRM for the platform.
 
 MyFaro separates **structured data storage** from **document storage**.
 
+**Important to note is that the meta-data and security information for these documents is still handled in myFaro.**
+
 Structured data is stored in:
 
 MongoDB
