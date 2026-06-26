@@ -20,3 +20,6 @@ __pycache__/
 # Temporary files
 *.tmp
 *.temp
+
+# Office lock/owner files
+~$*
