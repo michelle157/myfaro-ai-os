@@ -23,3 +23,14 @@ __pycache__/
 
 # Office lock/owner files
 ~$*
+
+# Outputs — keep the folder structure, ignore the generated commercial output
+outputs/drafts/*
+outputs/final/*
+outputs/account-plans/*
+outputs/archive/*
+
+!outputs/drafts/.gitkeep
+!outputs/final/.gitkeep
+!outputs/account-plans/.gitkeep
+!outputs/archive/.gitkeep
